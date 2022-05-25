@@ -211,7 +211,7 @@ header {
   border-radius: 5px;
   border-color:  #ED7839;
   align-items: center;
-  margin-left: 9.25rem;
+  margin-left: 9.2rem;
   bottom: 43rem;
   border-style: none;
 }
@@ -282,12 +282,37 @@ header {
   border-style: solid;
   position: absolute;
   width: 26rem;
-  height: 39.228rem;
+  height: 34.228rem;
   left: 74.8rem;
   bottom: 40.95rem;
   border-radius: 3px;
   border-width: 1px;
-  border-color: #ECECEC;
+  border-color: #ECECEC;  
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.detalhes-trabalho::-webkit-scrollbar {
+  width: 0.5rem;
+  background-color: #CCCCCC;
+}
+
+.detalhes-trabalho::-webkit-scrollbar-button {
+  background: #E7E7E7;
+}
+.detalhes-trabalho::-webkit-scrollbar-track {
+  background: #E7E7E7;
+  
+}
+.detalhes-trabalho::-webkit-scrollbar-track-piece {
+  background: #E7E7E7;
+}
+.detalhes-trabalho::-webkit-scrollbar-thumb {
+  background: #BFBFBF;
+  border-radius: 5px;
+}
+.detalhes-trabalho::-webkit-scrollbar-corner {
+  background: #E7E7E7;
 }
 
 .detalhes-trabalho-painel {
@@ -297,6 +322,9 @@ header {
   border-style: solid;
   border-color: #ECECEC;
   border-width: 1px;
+  position: absolute;
+  left: 74.8rem;
+  bottom: 75.1rem;
 }
 
 .detalhes-trabalho-painel-texto {
@@ -320,4 +348,55 @@ span {
 .detalhes-trabalho-texto-customizado {
   font-weight: normal;
   color: #ADA0A0;
+}
+
+.resumo {
+  position: absolute;
+  margin-top: 1.875rem;
+  height: 11.813rem;
+  border-style: solid;
+  border-color: #ECECEC;
+  border-width: 1px;
+}
+
+.resumo-painel {
+  background-color: #FDF1EB;
+  height: 5rem;
+  border-style: solid;
+  border-color: #ECECEC;
+  border-width: 1px;
+}
+
+.resumo-painel-texto {
+  font: 500 2rem 'Roboto', sans-serif;
+  color: #4E4E4E;
+  padding-top: 1.1rem;
+  padding-left: 1rem;
+  text-align: left;
+}
+
+.resumo-texto{
+  font: 400 1rem 'Quicksand', sans-serif;
+  color: #5C5C5C;
+  padding: 0.5rem;
+}
+
+.resumo-texto-completo{
+  font: 400 1rem 'Quicksand', sans-serif;
+  color: #5C5C5C;
+  padding: 0.5rem;
+  display: none;
+}
+
+#btn-ver-mais {
+  position: absolute;
+  left: 55rem;
+  bottom: 1rem;
+}
+
+#btn-ver-menos {
+  display: none;
+  position: absolute;
+  left: 18rem;
+  bottom: 0.8rem;
 }
