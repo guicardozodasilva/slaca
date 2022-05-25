@@ -185,7 +185,6 @@ header {
 
 /*==== CORPO PAGINA =======================*/
 .corpo-pagina {
-  border-style: groove;
   position: relative;
   margin-left: 16.438rem;
   margin-top: 1.063rem;
@@ -399,4 +398,63 @@ span {
   position: absolute;
   left: 18rem;
   bottom: 0.8rem;
+}
+
+.discussoes {
+  position: absolute;
+  border-style: solid;
+  border-color: #ECECEC;
+  border-width: 1px;
+  height: 40rem;
+  width: 100%;
+  top: 62rem;
+}
+
+.discussoes-painel {
+  background-color: #FDF1EB;
+  height: 5rem;
+  border-style: solid;
+  border-color: #ECECEC;
+  border-width: 1px;
+}
+
+.discussoes-painel-texto {
+  font: 500 2rem 'Roboto', sans-serif;
+  color: #4E4E4E;
+  padding-top: 1.1rem;
+  padding-left: 1rem;
+  text-align: left;
+}
+
+.discussoes-texto1 {
+  font: 700 1.5rem 'Roboto', sans-serif;
+  color: #ED7839;
+  text-align: center;
+  padding-top: 0.938rem;
+}
+
+.discussoes-icones {
+  position: relative;
+  top: 2.5rem;
+  left: 40rem;
+  height: 4rem;
+  width: 4rem;
+  margin: 0 1rem;
+}
+
+.discussoes-texto2 {
+  position: relative;
+  font: 400 1rem 'Quicksand', sans-serif;
+  color: #595959;
+  text-align: center;
+  top: 4.5rem;
+}
+
+.divisor {
+  position: relative;
+  height: 1px;
+  background: #E7E7E7;
+  width: 96.5rem;
+  top: 8.5rem;
+  left: 2rem;
 }
